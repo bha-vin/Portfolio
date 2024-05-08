@@ -48,7 +48,7 @@ gsap.to('.loading-page', {
 gsap.to('.child', {
     y: -200,
     delay: 3,
-    durtion: 1,
+    duration: 1,
     ease: Expo.easeInOut,
     onComplete: function () {
         loadingUpper();
@@ -80,5 +80,3 @@ function loadingUpper() {
         durtion: 1,
     })
 }
-
-
